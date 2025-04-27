@@ -45,6 +45,8 @@ qr kód čtečky(zabudovaná v aplikaci) naskenovat. Ti kteří hlasují fyzicky
 **APLIKACE**
 ![Image](https://github.com/user-attachments/assets/a868f24d-dc1f-4c41-9600-ccdbc527ad98)
 
+## Myšlenková mapa
+
 ## Zdroje
 - ChatGPT
 - Skripta - Vašíček David
