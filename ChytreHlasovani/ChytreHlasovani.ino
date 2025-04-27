@@ -34,15 +34,15 @@ void setup() {
 void loop() {
   if (digitalRead(buttonAno) == LOW) {
     sendVote("ano");
-    delay(500); // debounce
+    delay(500); 
   }
   if (digitalRead(buttonNe) == LOW) {
     sendVote("ne");
-    delay(500); // debounce
+    delay(500); 
   }
   if (digitalRead(buttonZdrzit) == LOW) {
     sendVote("zdrzit");
-    delay(500); // debounce
+    delay(500); 
   }
 }
 
