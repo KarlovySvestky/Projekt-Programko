@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Parlamentní Hlasování</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="header_nazev">
+
+        <h3>Parlament české republiky</h3>
+
+    </div>
+
+
+
+    <div class="flag"></div>
+
+  <div class="container">
+    <header>
+      <img src="pictures/lev_logo.png" alt="Symbol lva" class="logo">
+    </header>
+
+    <!-- Formulář pro zadání čísla místnosti -->
+    <form id="roomForm">
+      <label for="roomNumber">Vlož číslo místnosti:</label>
+      <input type="text" id="roomNumber" name="roomNumber" value="123-123" required>
+      <button type="button" onclick="startVoting()">Potvrdit</button>
+    </form>
+
+    <!-- Sekce pro hlasování -->
+    <section class="vote-section" style="display: none;">
+      <h1 id="question">Souhlasíte s návrhem zákona o rozpočtu?</h1>
+      <button class="vote-button yes" onclick="vote('ano')">ANO</button>
+      <button class="vote-button no" onclick="vote('ne')">NE</button>
+      <button class="vote-button abstain" onclick="vote('zdrzuji')">ZDRŽUJI SE</button>
+    </section>
+
+    <!-- Status a výsledky hlasování -->
+    <div id="status" class="status" style="display: none;">
+      <p>Probíhá hlasování...</p>
+      <img src="pictures/hourglass.png" alt="Hodiny" class="hourglass">
+    </div>
+
+    <section id="results" class="results" style="display: none;">
+      <h2>Výsledky hlasování</h2>
+      <h2 id="proposalStatus">Návrh byl </h2>
+
+      <div class="bar-container">
+        <div id="yesBar" class="bar-fill fill-yes">ANO: 0 poslanců</div>
+      </div>
+
+      <div class="bar-container">
+        <div id="noBar" class="bar-fill fill-no">NE: 0 poslanců</div>
+      </div>
+
+      <div class="bar-container">
+        <div id="abstainBar" class="bar-fill fill-abstain">ZDRŽUJI SE: 0 poslanců</div>
+      </div>
+    </section>
+  </div>
+
+  <script>
+    let votes = { ano: 0, ne: 0, zdrzuji: 0 };
+    let totalVotes = 0;
+
+    // Funkce pro zahájení hlasování po zadání čísla místnosti
+    function startVoting() {
+      const roomNumber = document.getElementById('roomNumber').value;
+      if (validateRoomNumber(roomNumber)) {
+        // Skrýt formulář a zobrazit hlasování
+        document.getElementById('roomForm').style.display = 'none';
+        document.querySelector('.vote-section').style.display = 'block';
+      } else {
+        alert('Neplatné číslo místnosti. Zadejte správný formát (např. 123-123).');
+      }
+    }
+
+    // Funkce pro validaci čísla místnosti
+    function validateRoomNumber(roomNumber) {
+      const regex = /^\d{3}-\d{3}$/;
+      return regex.test(roomNumber);
+    }
+
+    // Funkce pro registraci hlasu
+    function vote(choice) {
+      document.querySelector('.vote-section').style.display = 'none';
+      document.getElementById('status').style.display = 'block';
+
+      votes[choice]++;
+      totalVotes++;
+
+      setTimeout(showResults, 2000);
+    }
+
+    // Funkce pro zobrazení výsledků hlasování
+    function showResults() {
+      document.getElementById('status').style.display = 'none';
+      document.getElementById('results').style.display = 'block';
+
+      const yesCount = votes.ano;
+      const noCount = votes.ne;
+      const abstainCount = votes.zdrzuji;
+
+      document.getElementById('yesBar').style.width = (yesCount / totalVotes) * 100 + '%';
+      document.getElementById('yesBar').textContent = `ANO: ${yesCount} poslanců`;
+
+      document.getElementById('noBar').style.width = (noCount / totalVotes) * 100 + '%';
+      document.getElementById('noBar').textContent = `NE: ${noCount} poslanců`;
+
+      document.getElementById('abstainBar').style.width = (abstainCount / totalVotes) * 100 + '%';
+      document.getElementById('abstainBar').textContent = `ZDRŽUJI SE: ${abstainCount} poslanců`;
+
+      // Změna textu podle výsledku
+      if (yesCount > noCount) {
+        document.getElementById('proposalStatus').textContent = 'Návrh byl schválen';
+        document.getElementById('proposalStatus').style.color = 'green';
+      } else if (noCount > yesCount) {
+        document.getElementById('proposalStatus').textContent = 'Návrh nebyl schválen';
+        document.getElementById('proposalStatus').style.color = 'red';
+      } else {
+        document.getElementById('proposalStatus').textContent = 'Návrh byl zamítnut (rovnost hlasů)';
+        document.getElementById('proposalStatus').style.color = 'orange';
+      }
+    }
+  </script>
+
+</body>
+</html>
