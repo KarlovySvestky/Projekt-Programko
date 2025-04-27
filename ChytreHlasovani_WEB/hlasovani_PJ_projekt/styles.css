@@ -1,0 +1,177 @@
+/* Základní vzhled */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #e2e8f0;
+    color: #1e3a8a;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%; 
+   
+    background-image: 
+        url(pictures/blue_bar.png), 
+        url(pictures/cesky_lev_background.png);
+ 
+    background-repeat: 
+        repeat-x, repeat;
+    
+    background-position: 
+        top, bottom;
+    
+    background-size: 
+        auto 1500px, auto; 
+    
+}
+
+.header_nazev {
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 50px;
+    font-weight: bold;
+    position: absolute;
+    top: -40px;
+    width: 100%;
+    z-index: 10;
+  }
+
+.flag {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    width: 150px;
+    height: 150px;
+    background-image: url(pictures/vlajka_prezidenta.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+  
+
+ 
+  .container {
+    background-color: white;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 0 25px rgba(30, 58, 138, 0.3);
+    max-width: 700px;
+    width: 90%;
+    text-align: center;
+    border-top: 5px solid #1e3a8a;
+  }
+  
+ 
+  .logo {
+    width: 80px;
+    margin-bottom: 20px;
+  }
+  
+ 
+  header h1 {
+    font-size: 26px;
+    margin-bottom: 30px;
+    color: #1e40af;
+  }
+  
+ 
+  .vote-section {
+    margin: 30px 0;
+  }
+  
+  .vote-button {
+    display: inline-block;
+    padding: 15px 30px;
+    margin: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .vote-button.yes {
+    background-color: #2563eb;
+    color: white;
+  }
+  
+  .vote-button.no {
+    background-color: #dc2626;
+    color: white;
+  }
+  
+  .vote-button.abstain {
+    background-color: #fbbf24;
+    color: #1e3a8a;
+  }
+  
+  .vote-button:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+  }
+  
+  .status {
+    display: none;
+    margin-top: 30px;
+    font-size: 22px;
+    color: #1e40af;
+  }
+  
+  .status .hourglass {
+    width: 80px;
+    margin-top: 20px;
+  }
+  
+  .results {
+    display: none;
+    margin-top: 30px;
+  }
+  
+  .results h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #1e40af;
+  }
+  
+  .bar-container {
+    background: #cbd5e1;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 10px 0;
+  }
+  
+  .bar-fill {
+    height: 40px;
+    line-height: 40px;
+    color: white;
+    text-align: left;
+    padding-left: 15px;
+    font-weight: bold;
+  }
+  
+  .fill-yes {
+    background-color: #2563eb;
+  }
+  
+  .fill-no {
+    background-color: #dc2626;
+  }
+  
+  .fill-abstain {
+    background-color: #fbbf24;
+    color: #1e3a8a;
+  }
+  
+    .flag {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    width: 150px;
+    height: 150px;
+    background-image: url(pictures/vlajka_prezidenta.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+  
