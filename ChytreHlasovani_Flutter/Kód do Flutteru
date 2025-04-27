@@ -1,0 +1,99 @@
+import 'package:flutter/material.dart';
+import 'package:firebase_core/firebase_core.dart';
+import 'package:firebase_database/firebase_database.dart';
+
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp(); // Inicializace Firebase
+  runApp(MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: 'Real-Time Voting',
+      theme: ThemeData(
+        primarySwatch: Colors.blue,
+      ),
+      home: VotingPage(),
+    );
+  }
+}
+
+class VotingPage extends StatefulWidget {
+  @override
+  _VotingPageState createState() => _VotingPageState();
+}
+
+class _VotingPageState extends State<VotingPage> {
+  final DatabaseReference _votesRef = FirebaseDatabase.instance.ref('votes');
+  int _anoVotes = 0;
+  int _neVotes = 0;
+  int _zdrzitVotes = 0;
+
+  @override
+  void initState() {
+    super.initState();
+    // Načítání aktuálních hodnot z Firebase
+    _votesRef.child('ano').onValue.listen((event) {
+      setState(() {
+        _anoVotes = event.snapshot.value ?? 0;
+      });
+    });
+    _votesRef.child('ne').onValue.listen((event) {
+      setState(() {
+        _neVotes = event.snapshot.value ?? 0;
+      });
+    });
+    _votesRef.child('zdrzit').onValue.listen((event) {
+      setState(() {
+        _zdrzitVotes = event.snapshot.value ?? 0;
+      });
+    });
+  }
+
+  // Funkce pro odeslání hlasu do Firebase
+  void _vote(String voteType) {
+    DatabaseReference voteRef = _votesRef.child(voteType);
+    voteRef.runTransaction((transaction) async {
+      int current = transaction.snapshot.value ?? 0;
+      transaction.update(current + 1);
+      return transaction;
+    });
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('Real-Time Voting'),
+      ),
+      body: Padding(
+        padding: const EdgeInsets.all(16.0),
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          crossAxisAlignment: CrossAxisAlignment.center,
+          children: [
+            Text('Ano Votes: $_anoVotes'),
+            Text('Ne Votes: $_neVotes'),
+            Text('Zdržit Votes: $_zdrzitVotes'),
+            SizedBox(height: 20),
+            ElevatedButton(
+              onPressed: () => _vote('ano'),
+              child: Text('Hlasuj pro Ano'),
+            ),
+            ElevatedButton(
+              onPressed: () => _vote('ne'),
+              child: Text('Hlasuj pro Ne'),
+            ),
+            ElevatedButton(
+              onPressed: () => _vote('zdrzit'),
+              child: Text('Zdržet se'),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+}
