@@ -35,6 +35,15 @@ qr kód čtečky(zabudovaná v aplikaci) naskenovat. Ti kteří hlasují fyzicky
 
 -[Pro Aplikaci](ChytreHlasovani_Flutter/Kód_do_Flutteru)
 
+## Fotodokumentace
+
+**ESP32**
+![image](https://github.com/tejdis/Ro-n-kov-projekt-Buchta-Bod-r-/assets/167974463/028dd2a5-6b17-432c-ad90-524cbe6f6994)
+
+**WEB**
+
+**APLIKACE**
+
 ## Zdroje
 - ChatGPT
 - Skripta - Vašíček David
