@@ -19,7 +19,7 @@ qr kód čtečky(zabudovaná v aplikaci) naskenovat. Ti kteří hlasují fyzicky
 
 ##  Použité technologie
 
-| Komponenta             | Technologie                      |
+| Komponenty             | Technologie                      |
 |-------------------------|-----------------------------------|
 | Mikrokontrolér          | ESP32 Dev Board                  |
 | Komunikace              | Wi-Fi, HTTP (REST API), Firebase SDK |
