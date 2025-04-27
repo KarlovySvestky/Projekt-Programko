@@ -33,7 +33,7 @@ qr kód čtečky(zabudovaná v aplikaci) naskenovat. Ti kteří hlasují fyzicky
 
 -[Pro Webovou Stránku](ChytreHlasovani_WEB)
 
--[Pro Aplikaci](ChytreHlasovani_Flutter)
+-[Pro Aplikaci](ChytreHlasovani_Flutter/Kód do Flutteru)
 
 ## Zdroje
 - ChatGPT
