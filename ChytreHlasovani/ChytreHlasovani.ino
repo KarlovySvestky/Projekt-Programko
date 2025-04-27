@@ -1,7 +1,6 @@
 #include <WiFi.h>
 #include <HTTPClient.h>
-#include <WiFiClientSecure.h>
-#include <FirebaseClient.h>
+
 // ----- Tvůj WiFi přístup -----
 const char* ssid = "TVÁ_SÍŤ";
 const char* password = "HESLO_SÍTĚ";
