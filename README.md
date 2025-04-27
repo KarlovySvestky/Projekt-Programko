@@ -43,7 +43,7 @@ qr kód čtečky(zabudovaná v aplikaci) naskenovat. Ti kteří hlasují fyzicky
 **WEB**
 
 **APLIKACE**
-![Image](https://github.com/user-attachments/assets/e8aca9c2-b69f-4da9-bd5f-8828999ff9c6)
+![Image](https://github.com/user-attachments/assets/a868f24d-dc1f-4c41-9600-ccdbc527ad98)
 
 ## Zdroje
 - ChatGPT
