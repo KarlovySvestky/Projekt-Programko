@@ -35,7 +35,13 @@ qr kód čtečky(zabudovaná v aplikaci) naskenovat. Ti kteří hlasují fyzicky
 
 -[Pro Aplikaci]
 
+## Zdroje
+- ChatGPT
+- Skripta - Vašíček David
+- Dratek.CZ
+- Youtube
+- Firebase
 
-
-
+## Vypracovali
+Daniel Fiala , Karel Zelinger
 
