@@ -31,6 +31,10 @@ qr kód čtečky(zabudovaná v aplikaci) naskenovat. Ti kteří hlasují fyzicky
 
 -[Pro ESP32(ArduinoIDE)](ChytreHlasovani/ChytreHlasovani.ino) 
 
+-Pro Webovou Stránku
+
+-[Pro Aplikaci]
+
 
 
 
