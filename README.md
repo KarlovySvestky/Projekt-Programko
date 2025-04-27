@@ -10,5 +10,17 @@ Vytvořit systém, který umožní účastníkům hlasovat v reálném čase (p�
    - Průběžné skóre jednotlivých odpovědí.
    - Procentuální podíly.
    - Vítěze hlasování
+5.Data se archivují – je možné zpětně analyzovat stará hlasování.
+
+## 🛠️ Použité technologie
+
+| Komponenta             | Technologie                      |
+|-------------------------|-----------------------------------|
+| Mikrokontrolér          | ESP32 Dev Board                  |
+| Komunikace              | Wi-Fi, HTTP (REST API), Firebase SDK |
+| Backend                 | Firebase Realtime Database       |
+| Frontend (Dashboard)    | HTML, CSS, JavaScript, Chart.js   |
+| Vývojové prostředí      | Arduino IDE, Visual Studio Code  |
+
 
 
