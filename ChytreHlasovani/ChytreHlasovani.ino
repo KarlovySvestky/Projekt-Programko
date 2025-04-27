@@ -1,12 +1,13 @@
 #include <WiFi.h>
 #include <HTTPClient.h>
-
+#include <WiFiClientSecure.h>
+#include <FirebaseClient.h>
 // ----- Tvůj WiFi přístup -----
 const char* ssid = "TVÁ_SÍŤ";
 const char* password = "HESLO_SÍTĚ";
 
 // ----- Firebase adresa -----
-const char* firebaseHost = "https://ChytreHlasovani.firebaseio.com"; 
+const char* firebaseHost = "https://chytrehlasovani-default-rtdb.europe-west1.firebasedatabase.app/"; 
 const char* firebasePath = "/votes";
 
 // ----- GPIO piny tlačítek -----
