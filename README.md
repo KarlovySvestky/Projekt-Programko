@@ -14,8 +14,7 @@ qr kód čtečky(zabudovaná v aplikaci) naskenovat. Ti kteří hlasují fyzicky
    - Průběžné skóre jednotlivých odpovědí.
    - Procentuální podíly.
    - Vítěze hlasování
-     
-  5.Data se archivují – je možné zpětně analyzovat stará hlasování.
+5.Data se archivují – je možné zpětně analyzovat stará hlasování.
 
 ##  Použité technologie
 
