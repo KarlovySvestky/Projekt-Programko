@@ -28,7 +28,7 @@ qr kód čtečky(zabudovaná v aplikaci) naskenovat. Ti kteří hlasují fyzicky
 | Vývojové prostředí      | Arduino IDE, Visual Studio Code,Flutter  |
 
 ## Kód projektu
-[-Pro ESP32(ArduinoIDE):](ChytreHlasovani/ChytreHlasovani.ino) 
+-Pro ESP32(ArduinoIDE):(ChytreHlasovani/ChytreHlasovani.ino) 
 -
 
 
