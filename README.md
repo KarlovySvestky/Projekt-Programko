@@ -41,7 +41,7 @@ qr kód čtečky(zabudovaná v aplikaci) naskenovat. Ti kteří hlasují fyzicky
 ![image](https://github.com/tejdis/Ro-n-kov-projekt-Buchta-Bod-r-/assets/167974463/028dd2a5-6b17-432c-ad90-524cbe6f6994)
 
 **WEB**
-
+![Image](https://github.com/user-attachments/assets/139ac4c1-8c50-4bcd-861e-81eceb093e8b)
 **APLIKACE**
 ![Image](https://github.com/user-attachments/assets/a868f24d-dc1f-4c41-9600-ccdbc527ad98)
 
