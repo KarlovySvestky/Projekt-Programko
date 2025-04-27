@@ -1,6 +1,10 @@
 # Projekt hlasovacího systému v reálném čase pro akce nebo parlament
 ## Cíl projektu
-Vytvořit systém, který umožní účastníkům hlasovat v reálném čase (přes ESP32 zařízení nebo webovou appku), a okamžitě zobrazovat výsledky. Všechna data se ukládají do databáze pro pozdější analýzu a zobrazování historických trendů.
+Vytvořit systém, který umožní účastníkům hlasovat v reálném čase (přes ESP32 zařízení nebo webovou appku), a okamžitě zobrazovat výsledky. Všechna data se ukládají do databáze pro pozdější analýzu a zobrazování historických trendů. Chceme aby všichni mohli hlasovat na témata/otázky které je zajímají z pohodlí svého domu,nebo fyzicky. Podle toho co preferují. Hlasy fyzické i internetové se spojí a vyhodnotí se výsledek
+
+## Jak moderátor vytvoří otázku?
+Při vytvoření místnosti se vygeneruje náhodný číselný kód a QR kód odpovídající místnosti. Ti kteří se chtějí připojit do hlasování musí zadat na webu nebo aplikaci kód a nebo pomocí
+qr kód čtečky(zabudovaná v aplikaci) naskenovat. Ti kteří hlasují fyzicky hlasují přes tlačítka na daném místě
 
 ## Funkčnost projektu
 1. Moderátor vloží otázku přes admin web rozhraní (Například zrušení zákona).
@@ -12,7 +16,7 @@ Vytvořit systém, který umožní účastníkům hlasovat v reálném čase (p�
    - Vítěze hlasování
 5.Data se archivují – je možné zpětně analyzovat stará hlasování.
 
-## 🛠️ Použité technologie
+##  Použité technologie
 
 | Komponenta             | Technologie                      |
 |-------------------------|-----------------------------------|
@@ -20,7 +24,11 @@ Vytvořit systém, který umožní účastníkům hlasovat v reálném čase (p�
 | Komunikace              | Wi-Fi, HTTP (REST API), Firebase SDK |
 | Backend                 | Firebase Realtime Database       |
 | Frontend (Dashboard)    | HTML, CSS, JavaScript, Chart.js   |
-| Vývojové prostředí      | Arduino IDE, Visual Studio Code  |
+| Vývojové prostředí      | Arduino IDE, Visual Studio Code,Flutter  |
+
+## Kód projektu
+**Ve složce tohohle githubu.**
+
 
 
 
