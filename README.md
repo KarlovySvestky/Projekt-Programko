@@ -42,6 +42,7 @@ qr kód čtečky(zabudovaná v aplikaci) naskenovat. Ti kteří hlasují fyzicky
 
 **WEB**
 ![Image](https://github.com/user-attachments/assets/139ac4c1-8c50-4bcd-861e-81eceb093e8b)
+-[Fuknčnost stránky-Video](https://www.youtube.com/watch?v=7Q2wn-c0a28)
 **APLIKACE**
 ![Image](https://github.com/user-attachments/assets/a868f24d-dc1f-4c41-9600-ccdbc527ad98)
 
