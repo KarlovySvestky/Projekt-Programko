@@ -61,12 +61,10 @@ qr kód čtečky(zabudovaná v aplikaci) naskenovat. Ti kteří hlasují fyzicky
 </div>
 <br>
 
-![happyman_posting](https://github.com/user-attachments/assets/61f59726-57dd-4abf-be32-c12bf0fd5f30)
 
 ## Myšlenková mapa
 [Odkaz na mapu](https://coggle.it/diagram/aBSj1MeQzBRMp7a8/t/projekt-hlasovacího-systému-v-čase-pro-akce-nebo-parlament)
 
-https://github.com/user-attachments/assets/61f59726-57dd-4abf-be32-c12bf0fd5f30
 
 
 ## Zdroje
