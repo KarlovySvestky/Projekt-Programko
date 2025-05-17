@@ -60,6 +60,13 @@ qr kód čtečky(zabudovaná v aplikaci) naskenovat. Ti kteří hlasují fyzicky
 ## Myšlenková mapa
 [Odkaz na mapu](https://coggle.it/diagram/aBSj1MeQzBRMp7a8/t/projekt-hlasovacího-systému-v-čase-pro-akce-nebo-parlament)
 
+<br>
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/d9ddbf59-a8ad-4997-b3ac-544ad747e637">
+</div>
+<br>
+
+
 ## Zdroje
 - ChatGPT
 - Skripta - Vašíček David
