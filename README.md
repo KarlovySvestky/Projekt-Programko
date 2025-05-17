@@ -36,6 +36,11 @@ qr kód čtečky(zabudovaná v aplikaci) naskenovat. Ti kteří hlasují fyzicky
 -[Pro Aplikaci](ChytreHlasovani_Flutter/Kód_do_Flutteru)
 
 ## Fotodokumentace
+<br>
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/feac63ed-3fda-4bf2-82c7-f65da9da00b2">
+</div>
+<br>
 
 **ESP32**
 
@@ -49,13 +54,8 @@ qr kód čtečky(zabudovaná v aplikaci) naskenovat. Ti kteří hlasují fyzicky
 
 **APLIKACE**
 ![Image](https://github.com/user-attachments/assets/a868f24d-dc1f-4c41-9600-ccdbc527ad98)
-<div align=center>
-   <img href=https://github.com/user-attachments/assets/feac63ed-3fda-4bf2-82c7-f65da9da00b2>
-</div>
 
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/feac63ed-3fda-4bf2-82c7-f65da9da00b2">
-</div>
+
 
 ## Myšlenková mapa
 [Odkaz na mapu](https://coggle.it/diagram/aBSj1MeQzBRMp7a8/t/projekt-hlasovacího-systému-v-čase-pro-akce-nebo-parlament)
