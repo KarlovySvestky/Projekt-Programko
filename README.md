@@ -22,7 +22,7 @@ qr kód čtečky(zabudovaná v aplikaci) naskenovat. Ti kteří hlasují fyzicky
 | Komponenty             | Technologie                      |
 |-------------------------|-----------------------------------|
 | Mikrokontrolér          | ESP32 Dev Board                  |
-| Komunikace              | Wi-Fi, HTTP (REST API), Firebase SDK |
+| Komunikace              | Wi-Fi, HTTP (REST API), Firebase SDK |             ![Image](https://github.com/user-attachments/assets/56227999-9336-4fa0-ad7e-8e822f5d7de0)
 | Backend                 | Firebase Realtime Database       |
 | Frontend (Dashboard)    | HTML, CSS, JavaScript, Chart.js   |
 | Vývojové prostředí      | Arduino IDE, Visual Studio Code,Flutter  |
