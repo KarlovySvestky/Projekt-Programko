@@ -38,7 +38,7 @@ qr kód čtečky(zabudovaná v aplikaci) naskenovat. Ti kteří hlasují fyzicky
 ## Fotodokumentace
 
 **ESP32**
-![Image](https://github.com/user-attachments/assets/7e7b450e-7989-4f3d-8e12-c4328f5e86f0)
+
 ![Image](https://github.com/user-attachments/assets/75957c80-47ac-4f2a-8596-dee881acc3d7)
 
 
