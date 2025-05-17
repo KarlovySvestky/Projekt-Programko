@@ -62,9 +62,10 @@ qr kód čtečky(zabudovaná v aplikaci) naskenovat. Ti kteří hlasují fyzicky
 
 <br>
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/d9ddbf59-a8ad-4997-b3ac-544ad747e637">
+  <img src="https://github.com/user-attachments/assets/3b1ea526-f9af-49ee-b73e-fe4b48eb5b97">
 </div>
 <br>
+
 
 
 ## Zdroje
