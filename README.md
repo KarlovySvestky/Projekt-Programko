@@ -57,7 +57,7 @@ qr kód čtečky(zabudovaná v aplikaci) naskenovat. Ti kteří hlasují fyzicky
 
 <br>
 <div align="center">
-  <img src="hhttps://github.com/user-attachments/assets/f65b6747-1882-4aeb-8124-c898f70c635d">
+  <img src="https://github.com/user-attachments/assets/f65b6747-1882-4aeb-8124-c898f70c635d">
 </div>
 <br>
 
