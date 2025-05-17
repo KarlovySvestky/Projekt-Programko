@@ -49,7 +49,8 @@ qr kód čtečky(zabudovaná v aplikaci) naskenovat. Ti kteří hlasují fyzicky
 
 **APLIKACE**
 ![Image](https://github.com/user-attachments/assets/a868f24d-dc1f-4c41-9600-ccdbc527ad98)
-![Image](https://github.com/user-attachments/assets/3c8bd133-4d6a-47e0-8941-53cb7ebecde0)
+![Image](https://github.com/user-attachments/assets/fea695ce-89b4-4f9b-acc1-f23451679b25)
+
 
 
 ## Myšlenková mapa
