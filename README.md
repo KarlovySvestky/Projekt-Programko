@@ -57,14 +57,16 @@ qr kód čtečky(zabudovaná v aplikaci) naskenovat. Ti kteří hlasují fyzicky
 
 <br>
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/f65b6747-1882-4aeb-8124-c898f70c635d">
+  <img src="https://github.com/user-attachments/assets/61f59726-57dd-4abf-be32-c12bf0fd5f30">
 </div>
 <br>
+
+![happyman_posting](https://github.com/user-attachments/assets/61f59726-57dd-4abf-be32-c12bf0fd5f30)
 
 ## Myšlenková mapa
 [Odkaz na mapu](https://coggle.it/diagram/aBSj1MeQzBRMp7a8/t/projekt-hlasovacího-systému-v-čase-pro-akce-nebo-parlament)
 
-
+https://github.com/user-attachments/assets/61f59726-57dd-4abf-be32-c12bf0fd5f30
 
 
 ## Zdroje
