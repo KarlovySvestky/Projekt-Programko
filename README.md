@@ -53,6 +53,9 @@ qr kód čtečky(zabudovaná v aplikaci) naskenovat. Ti kteří hlasují fyzicky
    <img href=https://github.com/user-attachments/assets/feac63ed-3fda-4bf2-82c7-f65da9da00b2>
 </div>
 
+<div align="center">
+  <img src="[https://i.imgur.com/8BgVXcY.png](https://github.com/user-attachments/assets/a868f24d-dc1f-4c41-9600-ccdbc527ad98)">
+</div>
 
 ## Myšlenková mapa
 [Odkaz na mapu](https://coggle.it/diagram/aBSj1MeQzBRMp7a8/t/projekt-hlasovacího-systému-v-čase-pro-akce-nebo-parlament)
@@ -66,4 +69,6 @@ qr kód čtečky(zabudovaná v aplikaci) naskenovat. Ti kteří hlasují fyzicky
 
 ## Vypracovali
 Daniel Fiala , Karel Zelinger
+
+
 
