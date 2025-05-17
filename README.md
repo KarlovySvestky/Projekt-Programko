@@ -51,7 +51,7 @@ qr kód čtečky(zabudovaná v aplikaci) naskenovat. Ti kteří hlasují fyzicky
 ![Image](https://github.com/user-attachments/assets/a868f24d-dc1f-4c41-9600-ccdbc527ad98)
 <div align=center>
    ![Image](https://github.com/user-attachments/assets/56227999-9336-4fa0-ad7e-8e822f5d7de0)
-<div/>
+</div>
 
 
 ## Myšlenková mapa
